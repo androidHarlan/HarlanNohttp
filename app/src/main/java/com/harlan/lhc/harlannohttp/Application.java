@@ -15,7 +15,6 @@
  */
 package com.harlan.lhc.harlannohttp;
 
-import com.squareup.leakcanary.LeakCanary;
 import com.yanzhenjie.nohttp.InitializationConfig;
 import com.yanzhenjie.nohttp.Logger;
 import com.yanzhenjie.nohttp.NoHttp;
@@ -36,7 +35,7 @@ public class Application extends android.app.Application {
     public void onCreate() {
         super.onCreate();
 
-        LeakCanary.install(this);
+        //LeakCanary.install(this);
 
         _instance = this;
 

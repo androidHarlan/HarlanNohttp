@@ -13,7 +13,6 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.harlan.lhc.harlannohttp.activity.MainActivity">
             <intent-filter>
@@ -37,7 +36,16 @@
         <activity android:name="com.harlan.lhc.harlannohttp.activity.ProXYActivity"></activity>
         <activity android:name="com.harlan.lhc.harlannohttp.activity.HttpsActivity"></activity>
         <activity android:name="com.harlan.lhc.harlannohttp.activity.cache.CacheHttpActivity"></activity>
-
+        <activity android:name="com.harlan.lhc.harlannohttp.activity.cache.CacheOnlyReadCacheActivity"></activity>
+        <activity android:name="com.harlan.lhc.harlannohttp.activity.cache.CacheOnlyRequestNetworkActivity"></activity>
+        <activity android:name="com.harlan.lhc.harlannohttp.activity.cache.CacheRequestFailedReadCacheActivity"></activity>
+        <activity android:name="com.harlan.lhc.harlannohttp.activity.cache.CacheNoneCacheRequestNetWorkActivity"></activity>
+        <activity android:name=".activity.upload.UploadAlbumActivity"></activity>
+        <activity android:name=".activity.upload.UploadFileListActivity"></activity>
+        <activity android:name=".activity.upload.UploadMultiFileActivity"></activity>
+        <activity android:name=".activity.upload.UploadSingleFileActivity"></activity>
+        <activity android:name=".activity.download.DownloadSingleFileActivity"></activity>
+        <activity android:name=".activity.download.DownloadFileListActivity"></activity>
 
     </application>
 
